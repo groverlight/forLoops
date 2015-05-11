@@ -18,14 +18,27 @@
     [super viewDidLoad];
 
 
-    for (int meditationHours = 1; meditationHours <= 100; meditationHours = meditationHours +1)
+//    for (int meditationHours = 1; meditationHours <= 100; meditationHours = meditationHours +1)
+//
+//    {
+//
+//        NSLog(@"I am getting more enlightened");
+//
+//    }
 
-    {
 
-        NSLog(@"I am getting more enlightened");
+//    int pennies = 0;
+//    for (int i = 1; i <=64; i ++) {
+//        pennies = pennies + 1;
+//        NSLog(@"Hey I'm adding %i", pennies);
+//    }
 
+
+    int strandsOfWheat = 1;
+    for (int i = 2; i <=64; i ++) {
+        strandsOfWheat = strandsOfWheat * 2;
+        NSLog(@"%i", strandsOfWheat);
     }
-
 
 
 
